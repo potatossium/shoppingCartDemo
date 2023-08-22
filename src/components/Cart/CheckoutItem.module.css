@@ -1,0 +1,28 @@
+.CheckoutItem {
+    display: flex;
+}
+
+.CkoImg {
+    width: 140rem;
+}
+.CkoImg img {
+    width: 100%;
+}
+
+.Dscrp {
+    display: flex;
+    flex: auto;
+    flex-flow: column;
+    margin-left: 20rem;
+}
+
+.Title {
+    font-size: 24rem;
+}
+.PriceOuter {
+    display: flex;
+    justify-content: space-between;
+}
+.Price::before {
+    content: "￥";
+}

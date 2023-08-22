@@ -1,0 +1,41 @@
+.Meal {
+    display: flex;
+    padding: 30rem 20rem; /* 上下30 左右20 */
+    border-bottom: 1px #f2f2f2 solid;
+    /* 设置辅轴（纵向）对齐方式 */
+    align-items: center;
+}
+
+.ImgBox {
+    width: 260rem;
+}
+
+img {
+    width: 100%;
+}
+
+.Title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.Desc {
+    color: #999;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.PWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.P {
+    font-size: 15px;
+    font-weight: bold;
+}
+.P::before {
+    content: '￥';
+    font-size: 12px;
+}

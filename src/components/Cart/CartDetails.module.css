@@ -1,0 +1,36 @@
+.CartDetails {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    bottom: 0;
+    /*top: 200rem;*/
+    max-height: 1000rem;
+    padding-bottom: 120rem; /*向上提不遮盖购物车条*/
+    background-color: #fff;
+    width: 750rem;
+    border-radius: 20rem;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30rem;
+}
+.Title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 26rem;
+}
+
+.Clear {
+    color: #aaa;
+    font-weight: bold;
+    font-size: 24rem;
+}
+.Clear span {
+    margin-left: 10rem;
+}
+
+.MealList {
+    overflow: auto;
+}

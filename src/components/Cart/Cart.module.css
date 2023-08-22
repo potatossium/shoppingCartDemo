@@ -1,0 +1,65 @@
+.Cart {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 700rem;
+    height: 80rem;
+    background-color: #333;
+    border-radius: 40rem;
+
+    bottom: 30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    z-index: 999;
+}
+
+.Icon {
+    width: 80rem;
+    position: absolute;
+    bottom: -10rem;
+}
+.Icon img {
+    width: 100%;
+}
+.TotalAmount {
+    position: absolute;
+    right: -10rem;
+
+    background-color: red;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    color: #fff; /* 字体颜色 */
+    font-weight: bold;
+    font-size: 26rem;
+    text-align: center;
+    line-height: 32rem;
+}
+
+.Price {
+    display: flex;
+    align-items: center;
+    margin-left: 120rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28rem;
+
+}
+.Price::before {
+    content: "￥";
+    font-size: 26rem;
+}
+.Button {
+    border: none;
+    width: 160rem;
+    border-radius: 40rem;
+    background-color: #FCBF49;
+    font-size: 36rem;
+    font-weight: bold;
+}
+.Disabled {
+    background-color: #777;
+    color: #eee;
+}
